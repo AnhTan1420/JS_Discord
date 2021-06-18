@@ -7,7 +7,7 @@
         justify-content:center;
         flex: 3;
         cursor: default;
-        color: black;
+        color: white;
     }
     a{
         display: flex;
@@ -15,8 +15,10 @@
         flex: 1;
         text-decoration: none;
         font-size: 25px;
+        color: white;
         
     }
+   
 
 }
 .onl{
@@ -26,6 +28,7 @@
     span{
         padding: 20px;
         font-size: 25px;
+        color: white;
     }
 }
 .update{
@@ -35,5 +38,6 @@
     span{
         padding: 5px;
         font-size: 14px;
+        color: white;
     }
 }

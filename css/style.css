@@ -6,24 +6,27 @@ span {
   font-size: 18px;
   text-align: center; }
 
-.nav a button {
+.nav button {
   border: none;
-  background-color: white;
+  background-color: #393E46;
   border-radius: 5px;
   cursor: pointer; }
-
-.nav a :hover {
-  background-color: lightgray;
-  opacity: 60%; }
+  .nav button :hover {
+    background-color: gray; }
+  .nav button span {
+    color: white; }
 
 #point {
-  background-color: lightgrey; }
+  background-color: gray; }
   #point :hover {
-    opacity: 50%; }
+    opacity: 20%; }
 
 #adđ {
   background-color: green;
   color: white; }
+  #adđ :hover {
+    background-color: green;
+    color: white; }
 
 .Friend {
   display: flex;
@@ -31,9 +34,10 @@ span {
   align-items: center; }
   .Friend button {
     display: flex;
-    background-color: whitesmoke;
+    background-color: #343A40;
     padding: 20px;
-    width: 235px;
+    width: 237px;
+    flex: 1;
     border: none;
     border-radius: 5px;
     justify-content: flex-start; }
@@ -42,10 +46,11 @@ span {
   .Friend a {
     text-decoration: none; }
     .Friend a :hover {
-      background-color: lightgray;
+      background-color: #393E46;
       cursor: pointer; }
   .Friend span {
-    font-size: 18px; }
+    font-size: 18px;
+    color: white; }
   .Friend i {
     font-size: 20px; }
 
@@ -62,7 +67,8 @@ span {
 input {
   padding: 10px;
   padding-left: 32px;
-  width: 235px;
+  width: 230px;
+  justify-content: center;
   display: flex;
   border: none;
   border-radius: 5px;
@@ -76,8 +82,7 @@ input {
 
 .container-fluid {
   min-width: 100%;
-  height: 100vh;
-  border-bottom: solid 2px gray; }
+  border: inset 1px gray; }
 
 .grid {
   display: grid; }
@@ -694,43 +699,47 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
-  background-color: lightgrey;
-  border-bottom: solid 2px gray; }
+  height: 7vh;
+  background-color: #343A40;
+  border-bottom: solid 1px black; }
 
 .nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 50px;
-  background-color: white;
-  border-bottom: solid 2px gray; }
+  height: 7vh;
+  background-color: #393E46;
+  border-bottom: solid 1px black; }
   .nav .box {
     min-height: 40px;
     display: flex; }
     .nav .box div {
       margin: 12px; }
+      .nav .box div span {
+        color: white; }
+      .nav .box div i {
+        color: white; }
   .nav .mail {
     display: flex;
     justify-content: flex-end;
-    flex: 2;
+    flex: 1;
     margin: 20px;
     cursor: pointer; }
     .nav .mail a {
       text-decoration: none; }
       .nav .mail a i {
         font-size: 30px;
-        color: black; }
+        color: white; }
   .nav .chat-plus {
     display: flex;
-    justify-content: flex-start;
-    flex: 1;
-    cursor: pointer; }
+    justify-content: flex-end;
+    cursor: pointer;
+    padding-right: 20px; }
     .nav .chat-plus a {
       text-decoration: none; }
       .nav .chat-plus a i {
         font-size: 30px;
-        color: black; }
+        color: white; }
 
 .live {
   display: flex;
@@ -741,13 +750,14 @@ input {
     justify-content: center;
     flex: 3;
     cursor: default;
-    color: black; }
+    color: white; }
   .live a {
     display: flex;
     justify-content: center;
     flex: 1;
     text-decoration: none;
-    font-size: 25px; }
+    font-size: 25px;
+    color: white; }
 
 .onl {
   display: flex;
@@ -755,7 +765,8 @@ input {
   align-items: center; }
   .onl span {
     padding: 20px;
-    font-size: 25px; }
+    font-size: 25px;
+    color: white; }
 
 .update {
   display: flex;
@@ -763,7 +774,8 @@ input {
   align-items: center; }
   .update span {
     padding: 5px;
-    font-size: 14px; }
+    font-size: 14px;
+    color: white; }
 
 .scroller {
   color: white;

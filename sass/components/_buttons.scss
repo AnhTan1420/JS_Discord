@@ -1,27 +1,33 @@
-.nav a{
-
-  button{
+.nav button{
     border: none;
-    background-color: white;
+    background-color: #393E46;
     border-radius: 5px;
     cursor: pointer;
+    :hover{
+        background-color: gray;
+       
+    }
+    span{
+        color: white;
+    }
   
 }
-:hover{
-    background-color: lightgray;
-    opacity: 60%;
-}
-}
+
+
 #point{
-    background-color:lightgrey;
+    background-color:gray;
     :hover{
-        opacity: 50%;
+        opacity: 20%;
         
     }
 }
 #adđ{
     background-color: green;
     color: white;
+    :hover{
+        background-color: green;
+        color: white;
+    }
     
 }
 .Friend{
@@ -31,9 +37,10 @@
    
     button{
         display: flex;
-        background-color: whitesmoke;
+        background-color:#343A40 ;
         padding: 20px;
-        width: 235px;
+        width: 237px;
+        flex: 1;
         border: none;
         border-radius: 5px;
         justify-content: flex-start;
@@ -44,17 +51,21 @@
     a{
         text-decoration: none;
         :hover{
-            background-color: lightgray;
+            background-color: #393E46;
             cursor: pointer;
         }
     }
     span{
         font-size: 18px;
+        color: white;
+        
+       
         
 
     }
     i{
        font-size: 20px;
+      
     }
   
 }
